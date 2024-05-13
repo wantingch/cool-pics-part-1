@@ -82,7 +82,7 @@ footer {
     justify-content: center; 
     max-width: 100%;  
     margin: 50px;  
-}
+  }
 
   .gallery img {
       width: 100%;  
@@ -90,7 +90,6 @@ footer {
       object-fit: cover; 
       border: 1px solid #555;
       box-shadow: 10px 10px 5px #555;
-      
   }
 
 }

@@ -62,12 +62,15 @@ footer {
     padding: 10px 0;
     background-color: var(--primary-color);
 }
+.hide {
+  display: none; 
+}
 
 @media screen and (min-width: 700px) {
-  
-  #menu {
-    display: none; 
+  .hide {
+    display: block; 
   }
+ 
 
   nav li {
     display: inline-block;
@@ -83,8 +86,7 @@ footer {
   .gallery {
     display: grid;  
     grid-template-columns: repeat(3, 1fr);  
-}
+  }
 
-  
-
+  }
 }

@@ -6,16 +6,23 @@
     <meta name="description" content="A collection of cool pictures">
     <meta name="author" content="Tina Chen">
     <link rel="stylesheet" href="coolpics.css">
+    <link rel="stylesheet" href="view.css">
     <script src="coolpics.js" defer ></script>
     <title>Cool Pics 📷</title>
     
 </head>
+
+<div class="viewer" id="imageViewer">
+    <button class="close-viewer" onclick="closeViewer()">X</button>
+    <img src="" alt="Expanded view" id="viewerImage">
+</div>
+
 <body>
     <header>
         <h1>Cool Pics 📷</h1>
         <nav>
             <buttom id="hide">Menu</buttom>
-            <ul id="bar" class="hide">
+            <ul id="bar" >
                 <li>Home</li>
                 <li>People</li>
                 <li>Places</li>
@@ -29,31 +36,31 @@
         <p>Current Work</p>
         <div class="gallery">
             <figure>
-                <img src="norris-sm.jpeg" alt="Image1">
+                <img src="norris-sm.jpeg" alt="Image1" onclick="openViewer(this.src)">
             </figure>
             <figure>
-                <img src="snow.webp" alt="snow">
+                <img src="snow.webp" alt="snow" onclick="openViewer(this.src)">
             </figure>
             <figure>
-                <img src="boat.webp" alt="boat">
+                <img src="boat.webp" alt="boat" onclick="openViewer(this.src)">
             </figure>
             <figure>
-                <img src="norris-sm.jpeg" alt="Image1">
+                <img src="norris-sm.jpeg" alt="Image1" onclick="openViewer(this.src)">
             </figure>
             <figure>
-                <img src="norris-sm.jpeg" alt="Image1">
+                <img src="norris-sm.jpeg" alt="Image1" onclick="openViewer(this.src)">
             </figure>
             <figure>
-                <img src="norris-sm.jpeg" alt="Image1">
+                <img src="norris-sm.jpeg" alt="Image1" onclick="openViewer(this.src)">
             </figure>
             <figure>
-                <img src="norris-sm.jpeg" alt="Image1">
+                <img src="norris-sm.jpeg" alt="Image1" onclick="openViewer(this.src)">
             </figure>
             <figure>
-                <img src="norris-sm.jpeg" alt="Image1">
+                <img src="norris-sm.jpeg" alt="Image1" onclick="openViewer(this.src)">
             </figure>
             <figure>
-                <img src="norris-sm.jpeg" alt="Image1">
+                <img src="norris-sm.jpeg" alt="Image1" onclick="openViewer(this.src)">
             </figure>
             
         </div>
